@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input {
+        float: right;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .form-g {
+        margin-bottom: 10px;
+      }
+
+      .form_container {
+        background-color: beige;
+        border: 2px solid yellow;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(228, 228, 5);
+        padding: 30px;
+        width: 300px;
+        margin: 100px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form_container">
+      <h2>FORM ENTRY DATA PEGAWAI</h2>
+
+      <form method="post">
+        <div class="form-g">
+          <label for="nik">NIK</label>
+          <input id="nik" type="text" />
+        </div>
+        <div class="form-g">
+          <label for="name">Nama</label>
+          <input id="name" type="text" />
+        </div>
+        <div class="form-g">
+          <label for="ttl">Tempat Lahir</label>
+          <input id="ttl" type="text" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
